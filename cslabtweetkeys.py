@@ -57,8 +57,8 @@ def get_timeline(client, screen_name=None, user_id=None):
 
 cslab = get_client()
 
-# r, c = post_twitter(cslab, 'Minesweeper RULEZ!!! -From the CS Lab')
-r, c = get_timeline(cslab, 'occslab')
+r, c = post_twitter(cslab, 'FOR THE WIN!!! -From the Raspberry Pi')
+#r, c = get_timeline(cslab, 'occslab')
 
 print r
 print c
